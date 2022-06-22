@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+       
+
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+   
+}
+.box1 {
+    position: relative;   
+    height: 35rem;
+    width:100%;
+}
+
+#uno {
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   animation-delay: 1.5;
+   animation-duration: 1s;
+}
+
+#dos {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 2.0;
+    animation-duration: 2s;
+ }
+
+ #tres {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 2.5;
+    animation-duration: 3s;
+ }
+
+ #cuatro {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    animation-delay: 3.0;
+    animation-duration: 4s;
+ }
+
+ 
